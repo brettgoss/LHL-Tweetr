@@ -1,0 +1,164 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/*
+ * Global layout stuff
+ */
+body {
+  margin: 0;
+  color: #244751;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+main.container {
+  margin: auto;
+  width: 450px;
+  background: white;
+  margin-top: 80px;
+  height: auto;
+  padding: 2px; }
+
+#nav-bar {
+  height: 80px;
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  background-color: #00749f;
+  color: #e8fdff;
+  padding: 0 2em;
+  z-index: 999; }
+
+#nav-bar .logo {
+  width: 80px;
+  height: 80px;
+  float: left; }
+
+#nav-bar .header {
+  font-size: 200%;
+  line-height: 80px; }
+
+#nav-bar .compose {
+  float: right;
+  line-height: 40px;
+  margin: 10px 30px;
+  background-color: white;
+  color: black;
+  font-size: 150%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+#nav-bar .compose:hover {
+  background-color: #5297b1;
+  color: white;
+  cursor: pointer; }
+
+#nav-bar .delete {
+  float: right;
+  width: 10px;
+  height: 5em;
+  margin-right: -15em;
+  background-color: transparent; }
+
+.new-tweet {
+  background-color: #eee;
+  margin: 2em;
+  border: 1.5px solid #cecece;
+  padding: 1em;
+  border-radius: 5px;
+  display: none; }
+
+.new-tweet > h2 {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-top: 0px; }
+
+.new-tweet #message {
+  visibility: hidden;
+  margin-left: 0.1em; }
+
+.new-tweet span.counter {
+  float: right;
+  font-style: italic; }
+
+.new-tweet textarea {
+  height: 5em;
+  width: 100%;
+  max-width: 100%;
+  padding: 5px; }
+
+#feed .tweet {
+  margin: 2em;
+  border: 1.5px solid #cbcbcb;
+  border-radius: 5px;
+  background-color: #eee;
+  opacity: 0.9; }
+
+/* Header Styling */
+#feed header {
+  padding: 10px;
+  display: inline-block;
+  width: 100%; }
+
+#feed img {
+  width: 70px;
+  border-radius: 5px;
+  float: left; }
+
+#feed .name {
+  margin: 0.5em;
+  color: #667e85;
+  font-size: 1.8em;
+  font-weight: bold;
+  clear: both; }
+
+#feed .handle {
+  float: right;
+  font-size: 1.2em;
+  color: #a2a2a2;
+  margin-top: 10px; }
+
+/* Tweet Body Styling */
+#feed main {
+  background-color: #fff;
+  padding: 13px;
+  font-size: 1.3em;
+  word-wrap: break-word; }
+
+/* Tweet Footer Styling */
+#feed footer {
+  font-size: 0.8em;
+  padding: 0px 10px;
+  background-color: #fff;
+  border-top: 0.8px solid #eee;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+#feed footer p {
+  display: inline-block; }
+
+#feed .tweet i {
+  margin: 1em 0.5em;
+  display: inline-block;
+  font-size: 1.2em;
+  float: right;
+  color: #00749f;
+  visibility: hidden; }
+
+#feed .tweet:hover i {
+  visibility: visible; }
+
+#feed .tweet:hover {
+  border-color: #777777;
+  opacity: 1; }

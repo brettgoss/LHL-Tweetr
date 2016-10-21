@@ -25,7 +25,7 @@ const dbMethods = {
         return a.created_at - b.created_at
       }));
     });
-  };
+  }
 };
 
 module.exports = {
