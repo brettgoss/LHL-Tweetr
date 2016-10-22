@@ -1,4 +1,24 @@
+/**
+ * Normalize CSS
+ */
+@import "normalize";
+
+/**
+ * Layout CSS
+ */
 @import "layout";
+
+/**
+ * Navbar CSS
+ */
 @import "nav";
+
+/**
+ * Tweet Composer CSS
+ */
 @import "new-tweet";
+
+/**
+ * Feed CSS
+ */
 @import "feed";
