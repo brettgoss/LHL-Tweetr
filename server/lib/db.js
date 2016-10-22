@@ -1,5 +1,5 @@
 "use strict";
-const env = require('dotenv').config();
+require('dotenv').config();
 
 const MongoClient = require("mongodb").MongoClient;
 const MONGODB_URI = process.env.MONGODB_URI;;
