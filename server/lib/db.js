@@ -1,7 +1,6 @@
 "use strict";
 const MongoClient = require("mongodb").MongoClient;
 const MONGODB_URI = "mongodb://127.0.0.1:27017/tweeter";
-const initialTweets = require("./tweets");
 
 let collections;
 
