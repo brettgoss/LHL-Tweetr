@@ -1,9 +1,14 @@
 @media (max-width: 640px) {
-    main.container {
-      left: 0;
-      right: 0;
+  main.container {
+
+    width: 100%;
+  }
+  #feed {
+    left: 0;
+    right: 0;
+    // width: 100%;
   }
   #nav-bar .compose {
-    margin-right: -20px;
+    // width: 100%;
   }
 }
