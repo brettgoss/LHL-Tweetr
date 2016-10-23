@@ -2,7 +2,7 @@
 const dotenv = require('dotenv').config();
 
 const MongoClient = require("mongodb").MongoClient;
-const MONGODB_URI = 'mongodb://heroku_hjg8w70f:ugvgpknibj9s77to6hfbnscpq0@ds063546.mlab.com:63546/heroku_hjg8w70f';
+const MONGODB_URI = process.env.MONGODB_URI;
 
 let collections;
 
