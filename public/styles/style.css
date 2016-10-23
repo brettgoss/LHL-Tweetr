@@ -543,3 +543,13 @@ main.container {
 #feed .tweet:hover {
   border-color: #777777;
   opacity: 1; }
+
+/**
+ * Mobile CSS
+ */
+@media (max-width: 640px) {
+  main.container {
+    left: 0;
+    right: 0; }
+  #nav-bar .compose {
+    margin-right: -20px; } }
